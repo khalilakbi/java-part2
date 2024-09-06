@@ -8,7 +8,7 @@ public class StringMethods {
         String str2 = "soraya";
         String str3 = " ";
         //chartAt return character at index
-        char  c = str.charAt(4);
+        char c = str.charAt(4);
         System.out.println(c);
 
         //substring return string from index
@@ -16,7 +16,7 @@ public class StringMethods {
         System.out.println(strSubstring);
 
         //substring return string from index to index
-        String subString2 = str.substring(1,4);
+        String subString2 = str.substring(1, 4);
         System.out.println(subString2);
 
         //compare two string
@@ -37,9 +37,9 @@ public class StringMethods {
         //split string based on a regular expression
         String sentence = "this@is@a@java@course";
 
-        String word [] = sentence.split("@");
+        String word[] = sentence.split("@");
         // for each element in word
-        for(String element : word ){
+        for (String element : word) {
             System.out.println(element);
         }
         // return true if string contain substring
