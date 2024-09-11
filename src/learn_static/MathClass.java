@@ -14,5 +14,7 @@ public class MathClass {
         Arrays.sort(a);
         System.out.println(Arrays.toString(a));
 
+
+
     }
 }
