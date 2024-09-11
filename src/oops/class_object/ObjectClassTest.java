@@ -12,6 +12,5 @@ public class ObjectClassTest {
         int add = arithmetic.addition();
         System.out.println(add);
 
-
     }
 }

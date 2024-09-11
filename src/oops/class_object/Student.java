@@ -2,6 +2,7 @@ package oops.class_object;
 
 public class Student {
 
+    // instance/ object  variable belong to the object
     String name;
     int id;
 
