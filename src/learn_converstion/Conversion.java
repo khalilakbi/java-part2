@@ -1,9 +1,13 @@
 package learn_converstion;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Conversion {
     public static void main(String[] args) {
+        // type conversion in jva
+        //we use wrapper class
         // string to int
-
         String str = "190";
         int i = Integer.parseInt(str);
         System.out.println(i);
@@ -24,7 +28,6 @@ public class Conversion {
         String str3 = "truE";
         boolean isFalse = Boolean.parseBoolean(str3);
         System.out.println(isFalse);
-
 
     }
 }
