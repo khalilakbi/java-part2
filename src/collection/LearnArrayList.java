@@ -50,13 +50,13 @@ public class LearnArrayList {
         }
 
         int[] a = {1, 4, 6, 4, 3};
-        List<Integer> oddNumber = new ArrayList<>();
+        List<Integer> evenNumber = new ArrayList<>();
         for(int i = 0; i < a.length; i++){
             if(a[i] % 2 == 0){
-                oddNumber.add(a[i]);
+                evenNumber.add(a[i]);
             }
         }
-        System.out.println(oddNumber);
+        System.out.println(evenNumber);
 
 
 
