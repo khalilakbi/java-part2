@@ -12,5 +12,7 @@ public class inheritanceTest {
         Ford ford = (Ford) car;// down casting
 
 
+
+
     }
 }
